@@ -1,0 +1,36 @@
+.grid {
+    border: 1px solid black;
+    height: 360px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.slot {
+    height: 58px;
+    width: 58px;
+    margin: 1px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 30px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.hover-one {
+    border-radius: 30px;
+    background-color: pink;
+}
+
+.hover-two {
+    border-radius: 30px;
+    background-color: lightblue;
+}
